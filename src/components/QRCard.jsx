@@ -38,15 +38,7 @@ const QRCard = ({ value, title, timestamp }) => {
                 }}>
                     {title || "Card Title"}
                 </p>
-                <p style={{
-                    color: 'var(--text-secondary)',
-                    fontWeight: '500',
-                    fontSize: '1rem',
-                    marginBottom: '0.5rem',
-                    wordBreak: 'break-all'
-                }}>
-                    {value || "https://example.com"}
-                </p>
+
                 <p style={{ color: 'var(--text-secondary)', fontSize: '0.8rem' }}>
                     Created: {date}
                 </p>
